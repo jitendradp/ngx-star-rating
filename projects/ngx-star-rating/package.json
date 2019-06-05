@@ -1,0 +1,15 @@
+{
+  "name": "ngx-star-rating",
+  "version": "0.0.1",
+  "description": "Simple Angular rating control from angular2 application using fontawesome icon.",
+  "keywords" :["angular","rating","angular2","ngx-star-rating","ngx-rating"],
+  "tag" :["angular","rating","angular2","ngx-star-rating","ngx-rating"],
+  "author": {
+    "name": "Jitendra Prajapati",
+    "email": "jitendradprajapati@yahoo.com"
+  },
+  "peerDependencies": {
+    "@angular/common": "^8.0.0",
+    "@angular/core": "^8.0.0"
+  }
+}
