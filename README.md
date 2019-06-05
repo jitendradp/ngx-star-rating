@@ -6,6 +6,9 @@
 
 Simple Angular rating control from angular2 application using fontawesome icon.
 
+![ngx-star-rating angular rating](https://github.com/jitendradp/ngx-star-rating/raw/master/resources/ngx-star-rating-sample.png)
+
+
 
 ## Installation
 
