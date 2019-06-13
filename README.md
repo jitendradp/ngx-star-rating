@@ -1,13 +1,14 @@
   # ngx-star-rating
   
 <p align="center">
-  <h1 align="center">Angular Star Rating</h1>
+  <h1 align="center">Angular Star Rating (ngx star rating)</h1>
 </p>
 
 Simple Angular rating control from angular2 application using fontawesome icon.
 
-![ngx-star-rating angular rating](https://github.com/jitendradp/ngx-star-rating/raw/master/resources/ngx-star-rating-sample.png)
+[Demo can be found here](https://stackblitz.com/edit/ngx-star-rating)
 
+![ngx-star-rating angular rating](https://github.com/jitendradp/ngx-star-rating/raw/master/resources/ngx-star-rating-sample.png)
 
 
 ## Installation
