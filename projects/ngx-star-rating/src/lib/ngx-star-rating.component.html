@@ -1,5 +1,5 @@
 <form action="">
-  <ng-template ngFor let-star [ngForOf]="stars" let-currentElementIndex="(index + 1)">
+  <ng-template ngFor let-star [ngForOf]="stars" let-i="index">
     <input class="star star-{{ star }}" id="star-{{ star }}-{{ id }}" type="radio" name="star" (click)="rate(star)"
       [checked]="value == star" [disabled]="disabled" />
     <label class="star star-{{ star }}" for="star-{{ star }}-{{ id }}"></label>

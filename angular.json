@@ -14,6 +14,11 @@
           "options": {
             "tsConfig": "projects/ngx-star-rating/tsconfig.lib.json",
             "project": "projects/ngx-star-rating/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "tsConfig": "projects/ngx-star-rating/tsconfig.lib.prod.json"
+            }
           }
         },
         "test": {
@@ -48,6 +53,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
+            "aot": true,
             "outputPath": "dist/sample",
             "index": "projects/sample/src/index.html",
             "main": "projects/sample/src/main.ts",
@@ -84,6 +90,10 @@
                   "type": "initial",
                   "maximumWarning": "2mb",
                   "maximumError": "5mb"
+                },
+                {
+                  "type": "anyComponentStyle",
+                  "maximumWarning": "6kb"
                 }
               ]
             }
@@ -149,6 +159,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "ngx-star-rating"
+    }
+  },
+  "defaultProject": "ngx-star-rating",
+  "cli": {
+    "analytics": false
+  }
 }
