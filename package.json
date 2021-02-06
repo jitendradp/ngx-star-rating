@@ -9,7 +9,9 @@
     "angular8",
     "ngx-star-rating",
     "ngx-rating, angular 8",
-    "angular 9"
+    "angular 9",
+    "angular 10",
+    "angular 11"
   ],
   "tag": [
     "angular",
@@ -17,7 +19,7 @@
     "angular2",
     "angular8",
     "ngx-star-rating",
-    "ngx-rating, angular 8"
+    "ngx-rating, angular 8, angular 10, angular 11"
   ],
   "license": "MIT",
   "readmeFilename": "README.md",
