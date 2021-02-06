@@ -1,4 +1,4 @@
-import { Component, OnInit, ViewEncapsulation, Input, forwardRef } from '@angular/core';
+import { Component, OnInit, Input, forwardRef, ViewChildren, QueryList, ElementRef } from '@angular/core';
 import { ControlValueAccessor, NG_VALUE_ACCESSOR, NG_VALIDATORS } from '@angular/forms';
 
 @Component({
@@ -20,22 +20,28 @@ export class NgxStarRatingComponent implements OnInit, ControlValueAccessor {
 
   @Input() id: string;
   @Input() disabled: boolean;
+  @ViewChildren('ngxCheckbox') ngxCheckbox: QueryList<ElementRef>;
 
   constructor() {
-    if(!this.disabled) {
+    if (!this.disabled) {
       this.disabled = false;
     }
   }
 
-  ngOnInit() {}
+  ngOnInit() { }
 
   rate(rate) {
-    if(!this.disabled) {
-    this.propagateChange(rate);
+    if (!this.disabled) {
+      this.propagateChange(rate);
     }
   }
 
   writeValue(value) {
+    if (this.ngxCheckbox && value === null) {
+      this.ngxCheckbox.forEach((checkbox: ElementRef) => {
+        checkbox.nativeElement.checked = false;
+      });
+    }
     this.value = value;
   }
 
@@ -43,7 +49,7 @@ export class NgxStarRatingComponent implements OnInit, ControlValueAccessor {
     this.propagateChange = fn;
   }
 
-  registerOnTouched(fn) {}
+  registerOnTouched(fn) { }
 
   private propagateChange = (_: any) => { };
 }
