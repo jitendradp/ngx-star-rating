@@ -16,7 +16,7 @@ export class AppComponent {
     this.form = this.fb.group({
       rating1: ['', Validators.required],
       rating2: [4]
-    })
+    });
   }
 
 }
