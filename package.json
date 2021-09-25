@@ -1,6 +1,6 @@
 {
   "name": "ngx-star-rating",
-  "version": "2.0.0",
+  "version": "2.0.2",
   "description": "Simple Angular rating control from angular2 application using fontawesome icon.",
   "keywords": [
     "angular",
@@ -38,7 +38,7 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "build_lib": "ng build ngx-star-rating",
+    "build_lib": "ng build ngx-star-rating --prod",
     "npm_pack": "cd dist/ngx-star-rating && npm pack",
     "package": "npm run build_lib && npm run npm_pack"
   },

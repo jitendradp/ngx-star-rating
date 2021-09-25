@@ -1,9 +1,9 @@
 {
   "name": "ngx-star-rating",
-  "version": "2.0.0",
+  "version": "2.0.2",
   "description": "Simple Angular rating control from angular2 application using fontawesome icon.",
   "keywords" :["angular","rating","angular2","angular8","ngx-star-rating","ngx-rating, angular 8", "angular 9","angular 10","angular 11"],
-  "tag" :["angular","rating","angular2","angular8","ngx-star-rating","ngx-rating, angular 8", "angular 9","angular 10","angular 11"],
+  "tag" :["latest"],
   "license": "MIT",
   "readmeFilename": "README.md",
   "author": {
