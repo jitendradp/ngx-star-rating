@@ -1,6 +1,6 @@
 {
   "name": "ngx-star-rating",
-  "version": "2.0.3",
+  "version": "2.1.0",
   "description": "Simple Angular rating control from angular2 application using fontawesome icon.",
   "keywords": [
     "angular",
@@ -12,7 +12,8 @@
     "angular 9",
     "angular 10",
     "angular 11",
-    "angular 12"
+    "angular 12",
+    "angular 13"
   ],
   "tag": [
     "angular",
@@ -20,7 +21,7 @@
     "angular2",
     "angular8",
     "ngx-star-rating",
-    "ngx-rating, angular 8, angular 10, angular 11, angular 12"
+    "ngx-rating, angular 8, angular 10, angular 11, angular 12, angular 13"
   ],
   "license": "MIT",
   "readmeFilename": "README.md",
@@ -53,9 +54,9 @@
     "@angular/platform-browser": "~13.0.1",
     "@angular/platform-browser-dynamic": "~13.0.1",
     "@angular/router": "~13.0.1",
-    "rxjs": "~6.6.3",
+    "rxjs": "~7.4.0",
     "tslib": "^2.0.0",
-    "webpack-dev-server": "^3.7.1",
+    "webpack-dev-server": "^4.5.0",
     "zone.js": "~0.11.4"
   },
   "devDependencies": {
@@ -63,12 +64,12 @@
     "@angular/cli": "^13.0.2",
     "@angular/compiler-cli": "~13.0.1",
     "@angular/language-service": "~13.0.1",
-    "@types/jasmine": "~3.6.0",
+    "@types/jasmine": "~3.10.2",
     "@types/jasminewd2": "~2.0.3",
-    "@types/node": "^12.11.1",
+    "@types/node": "^16.11.7",
     "codelyzer": "^6.0.0",
-    "jasmine-core": "~3.6.0",
-    "jasmine-spec-reporter": "~5.0.0",
+    "jasmine-core": "~3.10.1",
+    "jasmine-spec-reporter": "~7.0.0",
     "karma": "~6.3.4",
     "karma-chrome-launcher": "~3.1.0",
     "karma-coverage-istanbul-reporter": "~3.0.2",
@@ -76,7 +77,7 @@
     "karma-jasmine-html-reporter": "^1.5.0",
     "ng-packagr": "^13.0.3",
     "protractor": "~7.0.0",
-    "ts-node": "~7.0.0",
+    "ts-node": "~10.4.0",
     "tslint": "~6.1.0",
     "typescript": "~4.4.4"
   }
