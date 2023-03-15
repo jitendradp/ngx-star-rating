@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { FormGroup, FormBuilder, Validators } from '@angular/forms';
+import { UntypedFormGroup, UntypedFormBuilder, Validators } from '@angular/forms';
 
 @Component({
   selector: 'app-root',
@@ -9,9 +9,9 @@ import { FormGroup, FormBuilder, Validators } from '@angular/forms';
 })
 export class AppComponent {
   rating3: number;
-  public form: FormGroup;
+  public form: UntypedFormGroup;
 
-  constructor(private fb: FormBuilder){
+  constructor(private fb: UntypedFormBuilder){
     this.rating3 = 0;
     this.form = this.fb.group({
       rating1: ['', Validators.required],
