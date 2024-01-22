@@ -2,7 +2,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
-import { NgxStarRatingModule } from './../../../ngx-star-rating/src/lib/ngx-star-rating.module';
+import { AngularXStarRatingModule } from './../../../angular-x-star-rating/src/lib/angular-x-star-rating.module';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
@@ -11,7 +11,7 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
   ],
   imports: [
     BrowserModule,
-    NgxStarRatingModule,
+    AngularXStarRatingModule,
     FormsModule,
     ReactiveFormsModule
   ],

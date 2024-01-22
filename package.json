@@ -1,13 +1,13 @@
 {
-  "name": "ngx-star-rating",
-  "version": "2.1.0",
+  "name": "angular-x-star-rating",
+  "version": "3.0.0",
   "description": "Simple Angular rating control from angular2 application using fontawesome icon.",
   "keywords": [
     "angular",
     "rating",
     "angular2",
     "angular8",
-    "ngx-star-rating",
+    "angular-x-star-rating",
     "ngx-rating, angular 8",
     "angular 9",
     "angular 10",
@@ -20,18 +20,18 @@
     "rating",
     "angular2",
     "angular8",
-    "ngx-star-rating",
+    "angular-x-star-rating",
     "ngx-rating, angular 8, angular 10, angular 11, angular 12, angular 13"
   ],
   "license": "MIT",
   "readmeFilename": "README.md",
   "author": {
-    "name": "Jitendra Prajapati",
-    "email": "jitendradprajapati@yahoo.com"
+    "name": "Nicolas Viana",
+    "email": "nicolas.viana.silva@outlook.com"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/jitendradp/ngx-star-rating"
+    "url": "https://github.com/viananicolas/angular-x-star-rating"
   },
   "scripts": {
     "ng": "ng",
@@ -40,8 +40,8 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "build_lib": "ng build ngx-star-rating --configuration production",
-    "npm_pack": "cd dist/ngx-star-rating && npm pack",
+    "build_lib": "ng build angular-x-star-rating --configuration production",
+    "npm_pack": "cd dist/angular-x-star-rating && npm pack",
     "package": "npm run build_lib && npm run npm_pack"
   },
   "private": true,

@@ -21,9 +21,9 @@
     "lib": ["es2020", "dom"],
     "typeRoots": ["node_modules/@types"],
     "paths": {
-      "ngx-star-rating": [
-        "dist/ngx-star-rating/ngx-star-rating",
-        "dist/ngx-star-rating"
+      "angular-x-star-rating": [
+        "dist/angular-x-star-rating/angular-x-star-rating",
+        "dist/angular-x-star-rating"
       ]
     },
     "useDefineForClassFields": false

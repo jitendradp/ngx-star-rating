@@ -2,7 +2,7 @@
 <form [formGroup]="form">
 <div class="cont">
   <div class="stars">
-    <ngx-star-rating formControlName="rating1" [id]="'rating'"></ngx-star-rating>
+    <angular-x-star-rating formControlName="rating1" [id]="'rating'"></angular-x-star-rating>
   </div>
   <div>Rating: {{form.value.rating1}}</div>
   <p>form is valid: {{ form.valid ? 'true' : 'false' }}</p>
@@ -10,7 +10,7 @@
 
 <div class="cont">
     <div class="stars">
-      <ngx-star-rating formControlName="rating2" [id]="'rating2'" [disabled] ="true"></ngx-star-rating>
+      <angular-x-star-rating formControlName="rating2" [id]="'rating2'" [disabled] ="true"></angular-x-star-rating>
     </div>
     <div>Rating(Disabled): {{form.value.rating2}}</div>
   </div>
@@ -19,7 +19,7 @@
 
 <div class="cont">
   <div class="stars">
-    <ngx-star-rating [(ngModel)]="rating3" [id]="'rating3'" ></ngx-star-rating >
+    <angular-x-star-rating [(ngModel)]="rating3" [id]="'rating3'" ></angular-x-star-rating >
   </div>
   <div>Rating: {{ rating3 }}</div>
 </div>

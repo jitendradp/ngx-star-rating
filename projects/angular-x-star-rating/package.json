@@ -1,0 +1,38 @@
+{
+  "name": "angular-x-star-rating",
+  "version": "2.1.0",
+  "description": "Simple Angular rating control from angular2 application using fontawesome icon.",
+  "keywords": [
+    "angular",
+    "rating",
+    "angular2",
+    "angular8",
+    "angular-x-star-rating",
+    "ngx-rating, angular 8",
+    "angular 9",
+    "angular 10",
+    "angular 11",
+    "angular 12",
+    "angular 13"
+  ],
+  "tag": [
+    "latest"
+  ],
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "author": {
+    "name": "Nicolas Viana",
+    "email": "nicolas.viana.silva@outlook.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/viananicolas/angular-x-star-rating"
+  },
+  "dependencies": {
+    "tslib": "^2.0.0"
+  },
+  "peerDependencies": {
+    "@angular/common": "^13.0.1",
+    "@angular/core": "^13.0.1"
+  }
+}
