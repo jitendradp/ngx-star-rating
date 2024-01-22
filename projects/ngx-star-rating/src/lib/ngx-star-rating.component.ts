@@ -18,9 +18,11 @@ export class NgxStarRatingComponent implements OnInit, ControlValueAccessor {
   value;
   stars = [5, 4, 3, 2, 1];
 
-  @Input() id: string;
+  @Input()
+  id!: string;
   @Input() disabled: boolean;
-  @ViewChildren('ngxCheckbox') ngxCheckbox: QueryList<ElementRef>;
+  @ViewChildren('ngxCheckbox')
+  ngxCheckbox!: QueryList<ElementRef>;
 
   constructor() {
     if (!this.disabled) {
