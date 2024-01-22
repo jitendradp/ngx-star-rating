@@ -10,20 +10,11 @@
     "experimentalDecorators": true,
     "importHelpers": true,
     "target": "ES2022",
-    "typeRoots": [
-      "node_modules/@types"
-    ],
-    "lib": [
-      "es2018",
-      "dom"
-    ],
+    "typeRoots": ["node_modules/@types"],
+    "lib": ["es2018", "dom"],
     "paths": {
-      "ngx-star-rating": [
-        "dist/ngx-star-rating"
-      ],
-      "ngx-star-rating/*": [
-        "dist/ngx-star-rating/*"
-      ]
+      "@ngx-star-rating": ["dist/ngx-star-rating"],
+      "@ngx-star-rating/*": ["dist/ngx-star-rating/*"]
     },
     "useDefineForClassFields": false
   }
